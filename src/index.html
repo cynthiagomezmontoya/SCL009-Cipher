@@ -1,15 +1,40 @@
 <!DOCTYPE html>
 <html>
-  <head>
+  <HEad>
+  <title> WIFI </title>
+  <link rel="stylesheet" href="style.css">
     <meta charset="utf-8">
-    <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+
     <div id="root">
-      <h1>Hola mundo!</h1>
+    <h1>ingresa una palabra para crear tu contraseña</h1>
+    
+      <h2> INGRESA TU MENSAJE </h2>
+    <textarea type="text" id="mensaje1" rows="10" cols="40"></textarea>
+    
+
+    <p>INGRESA UN NUMERO</p>
+    <input type="number" id="numero" size="4" >
+
+    <p> TU CONTRASEÑA </p>
+    
+    <textarea id="mensaje2" rows="10" cols="40"></textarea>
+
+
+    <input type="button" value="cifrar" id="cifrar" >
+
+    <input type="button" value="descifrar" id="descifrar" >
+
     </div>
+
+
+
+
+
     <script src="cipher.js"></script>
     <script src="index.js"></script>
+
   </body>
+    
 </html>
